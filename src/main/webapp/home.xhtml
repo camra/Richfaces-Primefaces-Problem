@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:pretty="http://ocpsoft.com/prettyfaces"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<f:view>
+		
+		<h:head>
+			<title>Prime faces vs. Richfaces problem </title>
+		</h:head>
+		
+		<h:body>
+			<p:tabView effect="slide">        
+			<p:tab title="blah1">
+			When the page is loaded, the calendar works well. Try to go to the next tab and come back here.
+				<br/>
+				<rich:calendar/>
+
+				</p:tab>
+				<p:tab title="blah2">go back to previous tab</p:tab>
+				
+				
+				
+			</p:tabView>
+		</h:body>
+	</f:view>
+	
+	
+	
+</html>
+
